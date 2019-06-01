@@ -1,112 +1,150 @@
 /*
-   Theme Name: Neve Child MarkiiMedia
-   Theme URI: https://www.markiimedia.dk/ 
-   Description: This is a custom child theme I have created.
-   Author: MarkiiMedia
-   URI: https://www.themeisle.com/ 
-   Template: neve
-   Version: 0.1 
-   */
+Theme Name: Zakra Child Theme
+Theme URI: http://themegrill.com/themes/zakra/
+Description: Child Theme for Zakra
+Author: ThemeGrill
+Author URI: http://themegrill.com
+Template: zakra
+Version: 1.0
+*/
+
+/* Header image kun på forside*/
+:not( .home ) > #page .wp-custom-header {
+  display: none;
+}
+
+/* Skjul title på forsiden (skal lige undersøge om det kun er på forsiden) */
+.entry-title {
+    display: none;
+}
+
+/* Seperator regler */
+hr {
 	
-/* 
-farve koder: 
-gul: #ffd364
-grøn: #26a754
-rød: #fc5c00
-blå: #29abe2 
-*/
+	margin-bottom: 2.5em;
+	margin-top: 2.5em;
+}
 
-/*01 InnoCore border colors start */
+/* Test */
 /*
-blå
-gul
-grøn
-rød
+#primary {
+    padding-right: 20px;
+    padding-left: 20px;
+}
 */
-.elementor-91 .elementor-element.elementor-element-ccceedd > .elementor-element-populated {
-    border-color: #29abe2;
+
+
+/* Kontaktside start her */
+
+.nf-before-form-content {
+    text-align: center;
 }
 
-.elementor-91 .elementor-element.elementor-element-360713c > .elementor-element-populated {
-	border-color: #ffd364;
+.nf-form-title {
+    text-align: center;
 }
 
-.elementor-91 .elementor-element.elementor-element-7a76dcdb > .elementor-element-populated {
-	border-color: #26a754;
+/* Kontaktside slut her */
+
+
+/* Video responsive test start her */
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
-.elementor-91 .elementor-element.elementor-element-48c23e1 > .elementor-element-populated {
-	border-color: #fc5c00;
-}
-/* 01 InnoCore bottom border colors slut */
+/* Video responsive test slut her */
+
+
+/* rette align på hele siden start her */
+
+
+/* rette align på hele siden slut her */
 
 
 
-/* 03 Design bottom border colors start */
-.elementor-91 .elementor-element.elementor-element-cad5a9a > .elementor-element-populated {
-	border-color: #29abe2;
-}
+/* tekst på læring mindre start her */
 
-.elementor-91 .elementor-element.elementor-element-2eef36a > .elementor-element-populated {
-	border-color: #ffd364;
-}
-
-.elementor-91 .elementor-element.elementor-element-929adb4 > .elementor-element-populated {
-	border-color: #26a754;
-}
-
-.elementor-91 .elementor-element.elementor-element-1511787 > .elementor-element-populated {
-	border-color: #fc5c00;
+.mark_test_narrow {
+	/*background-color: deeppink;*/
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
 }
 
-.elementor-91 .elementor-element.elementor-element-047a73f > .elementor-element-populated {
-	border-color: #29abe2;
+/* tekst på læring mindre slut her */
+
+
+/* Quiz styling start her */
+
+body .wq_questionTextCtr h4 {
+    font-size: 22px !important;
+}
+
+.wq_singleAnswerCtr .wq_answerTxtCtr {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    display: inline-block;
+    height: auto;
+    padding-left: 25px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: inherit;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    position: relative;
+}
+
+
+.wq_singleAnswerCtr:hover, .wq_singleAnswerCtr.chosen, .wq_singleAnswerCtr.wq_answerSelected {
+    background: #75A53D;
+}
+
+/* gemmer "share buttons" */
+.wq-results .wq_shareCtr {
+    display: none;
+}
+
+/* Quiz styling slut her */
+
+
+
+
+
+/* leg med baggrund styling start her */
+/*Dette nedenunder virker!! skal blot finde et godt billede!! lækkert!!*/
+body:not(.tg-container--separate) #page {
+    /*background-image: url("/naturguiden/wp-content/uploads/2019/05/leaves_baggrund_65opacity.png");*/
+    /*background-image: url("/naturguiden/wp-content/uploads/2019/05/leaves_baggrund_35opacity.png");*/
+    /*background-image: url("/naturguiden/wp-content/uploads/2019/05/leaves_baggrund_100opacity.png");*/
+    background-image: url("/naturguiden/wp-content/uploads/2019/05/leaves_baggrund_10opacity.png");
+    /*background-image: url("/naturguiden/wp-content/uploads/2019/05/baggrund_hjemmeside.png");*/
+    /*background-image: url("/naturguiden/wp-content/uploads/2019/05/baggrund_mindrefyldig.png");*/
+    /*background-position: center; /* Center the image */
+    /*background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-size: cover; /* Resize the background image to cover the entire container */
+    /* disse to linjer gør det "fixed", altså at det ikke scroller, men siden gør */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
 
 
-
-
-/* 03 Design bottom border colors slut */
-
-
-/* 04 regler start her */
-
-.elementor-91 .elementor-element.elementor-element-0db562a > .elementor-widget-container {
-	border-color: #29abe2;
-}
-
-.elementor-91 .elementor-element.elementor-element-ce26232 > .elementor-widget-container {
-	border-color: #29abe2;
-}
-/* 04 regler slut her */
+/* leg med baggrund styling slut her */
 
 
 
 
-/* 07 Kontakt form start her */
-.elementor-91 .elementor-element.elementor-element-91c4c35 fieldset > button {
-	background-color: #29abe2;
-}
-/* 07 Kontakt form slut her */
-
-
-
-/* Sociale icons wrapper start her */
-.elementor-social-icons-wrapper {
-	padding-top: 100px;
-    margin-bottom: -120px;
-}
-
-/* Sociale icons wrapper slut her */
-
-/* Footer start */
-.footer-content-wrap.footer-second-section {
-	background-color: #fff;
-	color: #5e5e5e;
-}
-.footer-content-wrap.footer-second-section a {
-	color: #29abe2;
-}
-/* Footer slut */
