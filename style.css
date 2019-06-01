@@ -1,0 +1,112 @@
+/*
+   Theme Name: Neve Child MarkiiMedia
+   Theme URI: https://www.markiimedia.dk/ 
+   Description: This is a custom child theme I have created.
+   Author: MarkiiMedia
+   URI: https://www.themeisle.com/ 
+   Template: neve
+   Version: 0.1 
+   */
+	
+/* 
+farve koder: 
+gul: #ffd364
+grøn: #26a754
+rød: #fc5c00
+blå: #29abe2 
+*/
+
+/*01 InnoCore border colors start */
+/*
+blå
+gul
+grøn
+rød
+*/
+.elementor-91 .elementor-element.elementor-element-ccceedd > .elementor-element-populated {
+    border-color: #29abe2;
+}
+
+.elementor-91 .elementor-element.elementor-element-360713c > .elementor-element-populated {
+	border-color: #ffd364;
+}
+
+.elementor-91 .elementor-element.elementor-element-7a76dcdb > .elementor-element-populated {
+	border-color: #26a754;
+}
+
+.elementor-91 .elementor-element.elementor-element-48c23e1 > .elementor-element-populated {
+	border-color: #fc5c00;
+}
+/* 01 InnoCore bottom border colors slut */
+
+
+
+/* 03 Design bottom border colors start */
+.elementor-91 .elementor-element.elementor-element-cad5a9a > .elementor-element-populated {
+	border-color: #29abe2;
+}
+
+.elementor-91 .elementor-element.elementor-element-2eef36a > .elementor-element-populated {
+	border-color: #ffd364;
+}
+
+.elementor-91 .elementor-element.elementor-element-929adb4 > .elementor-element-populated {
+	border-color: #26a754;
+}
+
+.elementor-91 .elementor-element.elementor-element-1511787 > .elementor-element-populated {
+	border-color: #fc5c00;
+}
+
+.elementor-91 .elementor-element.elementor-element-047a73f > .elementor-element-populated {
+	border-color: #29abe2;
+}
+
+
+
+
+
+
+/* 03 Design bottom border colors slut */
+
+
+/* 04 regler start her */
+
+.elementor-91 .elementor-element.elementor-element-0db562a > .elementor-widget-container {
+	border-color: #29abe2;
+}
+
+.elementor-91 .elementor-element.elementor-element-ce26232 > .elementor-widget-container {
+	border-color: #29abe2;
+}
+/* 04 regler slut her */
+
+
+
+
+/* 07 Kontakt form start her */
+.elementor-91 .elementor-element.elementor-element-91c4c35 fieldset > button {
+	background-color: #29abe2;
+}
+/* 07 Kontakt form slut her */
+
+
+
+/* Sociale icons wrapper start her */
+.elementor-social-icons-wrapper {
+	padding-top: 100px;
+    margin-bottom: -120px;
+}
+
+/* Sociale icons wrapper slut her */
+
+/* Footer start */
+.footer-content-wrap.footer-second-section {
+	background-color: #fff;
+	color: #5e5e5e;
+}
+.footer-content-wrap.footer-second-section a {
+	color: #29abe2;
+}
+/* Footer slut */
