@@ -147,4 +147,14 @@ body:not(.tg-container--separate) #page {
 
 
 
+/* guides sider overskrift afstand start her */
+
+.entry-content p {
+    margin-bottom: 0px;
+}
+
+/* guides sider overskrift afstand slut her */
+
+
+
 
